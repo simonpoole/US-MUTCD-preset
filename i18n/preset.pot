@@ -1,0 +1,60 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2017-11-30 21:35+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: master_preset.xml:149(item:name|group:MUTCD_access|preset:Authorized_vehicles_only)
+msgid "Authorized vehicles only"
+msgstr ""
+
+#: master_preset.xml:6(group:name|group:MUTCD_access)
+msgid "MUTCD access"
+msgstr ""
+
+#: master_preset.xml:53(item:name|group:MUTCD_access|preset:No_bicycles)
+msgid "No bicycles"
+msgstr ""
+
+#: master_preset.xml:37(item:name|group:MUTCD_access|preset:No_commercial_vehicles)
+msgid "No commercial vehicles"
+msgstr ""
+
+#: master_preset.xml:22(item:name|group:MUTCD_access|preset:No_motor_vehicles)
+msgid "No motor vehicles"
+msgstr ""
+
+#: master_preset.xml:84(item:name|group:MUTCD_access|preset:No_motor-driven_cycles)
+msgid "No motor-driven cycles"
+msgstr ""
+
+#: master_preset.xml:68(item:name|group:MUTCD_access|preset:No_non-motorized_traffic)
+msgid "No non-motorized traffic"
+msgstr ""
+
+#: master_preset.xml:101(item:name|group:MUTCD_access|preset:No_ped._bicycles_motor-d._c.)
+msgid "No ped. bicycles motor-d. c."
+msgstr ""
+
+#: master_preset.xml:134(item:name|group:MUTCD_access|preset:No_pedestrians)
+msgid "No pedestrians"
+msgstr ""
+
+#: master_preset.xml:118(item:name|group:MUTCD_access|preset:No_pedestrians_or_bicycles)
+msgid "No pedestrians or bicycles"
+msgstr ""
+
+#: master_preset.xml:7(item:name|group:MUTCD_access|preset:No_trucks)
+msgid "No trucks"
+msgstr ""
+
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#: master_preset.xml:0(None)
+msgid "translator-credits"
+msgstr ""
+

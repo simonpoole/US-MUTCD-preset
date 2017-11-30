@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0"
+	shortdescription="MUTCD Access Preset"
+	description="MUTCD access signs preset for Vespucci and JOSM">
+	<!-- Groups -->
+	<group name="MUTCD access" icon="MUTCD_no_commercial_vehicles.png">
+		<item name="No trucks" icon="MUTCD_no_trucks.png">
+			<link href="http://wiki.openstreetmap.org/wiki/Key:access"
+                  cs.href="http://wiki.openstreetmap.org/wiki/Cs:Key:access"
+                  da.href="http://wiki.openstreetmap.org/wiki/Da:Key:access"
+                  de.href="http://wiki.openstreetmap.org/wiki/DE:Key:access"
+                  fr.href="http://wiki.openstreetmap.org/wiki/FR:Key:access"
+                  it.href="http://wiki.openstreetmap.org/wiki/IT:Key:access"
+                  ja.href="http://wiki.openstreetmap.org/wiki/JA:Key:access"
+                  pl.href="http://wiki.openstreetmap.org/wiki/Pl:Key:access"
+                  pt.href="http://wiki.openstreetmap.org/wiki/Pt:Key:access"
+                  ru.href="http://wiki.openstreetmap.org/wiki/RU:Key:access"
+                  sv.href="http://wiki.openstreetmap.org/wiki/Sv:Key:access"
+                  uk.href="http://wiki.openstreetmap.org/wiki/Uk:Key:access" />
+			<key key="hgv" value="no" match="none" />
+		</item>
+		<item name="No motor vehicles" icon="MUTCD_no_motor_vehicles.png">
+			<link href="http://wiki.openstreetmap.org/wiki/Key:access"
+                  cs.href="http://wiki.openstreetmap.org/wiki/Cs:Key:access"
+                  da.href="http://wiki.openstreetmap.org/wiki/Da:Key:access"
+                  de.href="http://wiki.openstreetmap.org/wiki/DE:Key:access"
+                  fr.href="http://wiki.openstreetmap.org/wiki/FR:Key:access"
+                  it.href="http://wiki.openstreetmap.org/wiki/IT:Key:access"
+                  ja.href="http://wiki.openstreetmap.org/wiki/JA:Key:access"
+                  pl.href="http://wiki.openstreetmap.org/wiki/Pl:Key:access"
+                  pt.href="http://wiki.openstreetmap.org/wiki/Pt:Key:access"
+                  ru.href="http://wiki.openstreetmap.org/wiki/RU:Key:access"
+                  sv.href="http://wiki.openstreetmap.org/wiki/Sv:Key:access"
+                  uk.href="http://wiki.openstreetmap.org/wiki/Uk:Key:access" />
+			<key key="motor_vehicle" value="no" match="none" />
+		</item>
+		<item name="No commercial vehicles" icon="MUTCD_no_commercial_vehicles.png">
+			<link href="http://wiki.openstreetmap.org/wiki/Key:access"
+                  cs.href="http://wiki.openstreetmap.org/wiki/Cs:Key:access"
+                  da.href="http://wiki.openstreetmap.org/wiki/Da:Key:access"
+                  de.href="http://wiki.openstreetmap.org/wiki/DE:Key:access"
+                  fr.href="http://wiki.openstreetmap.org/wiki/FR:Key:access"
+                  it.href="http://wiki.openstreetmap.org/wiki/IT:Key:access"
+                  ja.href="http://wiki.openstreetmap.org/wiki/JA:Key:access"
+                  pl.href="http://wiki.openstreetmap.org/wiki/Pl:Key:access"
+                  pt.href="http://wiki.openstreetmap.org/wiki/Pt:Key:access"
+                  ru.href="http://wiki.openstreetmap.org/wiki/RU:Key:access"
+                  sv.href="http://wiki.openstreetmap.org/wiki/Sv:Key:access"
+                  uk.href="http://wiki.openstreetmap.org/wiki/Uk:Key:access" />
+			<key key="hgv" value="no" match="none" />
+			<key key="goods" value="no" match="none" />
+		</item>
+		<item name="No bicycles" icon="MUTCD_no_bicycles.png">
+			<link href="http://wiki.openstreetmap.org/wiki/Key:access"
+                  cs.href="http://wiki.openstreetmap.org/wiki/Cs:Key:access"
+                  da.href="http://wiki.openstreetmap.org/wiki/Da:Key:access"
+                  de.href="http://wiki.openstreetmap.org/wiki/DE:Key:access"
+                  fr.href="http://wiki.openstreetmap.org/wiki/FR:Key:access"
+                  it.href="http://wiki.openstreetmap.org/wiki/IT:Key:access"
+                  ja.href="http://wiki.openstreetmap.org/wiki/JA:Key:access"
+                  pl.href="http://wiki.openstreetmap.org/wiki/Pl:Key:access"
+                  pt.href="http://wiki.openstreetmap.org/wiki/Pt:Key:access"
+                  ru.href="http://wiki.openstreetmap.org/wiki/RU:Key:access"
+                  sv.href="http://wiki.openstreetmap.org/wiki/Sv:Key:access"
+                  uk.href="http://wiki.openstreetmap.org/wiki/Uk:Key:access" />
+			<key key="bicycle" value="no" match="none" />
+		</item>
+		<item name="No non-motorized traffic" icon="MUTCD_no_non-motorized_traffic.png">
+			<link href="http://wiki.openstreetmap.org/wiki/Key:access"
+                  cs.href="http://wiki.openstreetmap.org/wiki/Cs:Key:access"
+                  da.href="http://wiki.openstreetmap.org/wiki/Da:Key:access"
+                  de.href="http://wiki.openstreetmap.org/wiki/DE:Key:access"
+                  fr.href="http://wiki.openstreetmap.org/wiki/FR:Key:access"
+                  it.href="http://wiki.openstreetmap.org/wiki/IT:Key:access"
+                  ja.href="http://wiki.openstreetmap.org/wiki/JA:Key:access"
+                  pl.href="http://wiki.openstreetmap.org/wiki/Pl:Key:access"
+                  pt.href="http://wiki.openstreetmap.org/wiki/Pt:Key:access"
+                  ru.href="http://wiki.openstreetmap.org/wiki/RU:Key:access"
+                  sv.href="http://wiki.openstreetmap.org/wiki/Sv:Key:access"
+                  uk.href="http://wiki.openstreetmap.org/wiki/Uk:Key:access" />
+			<key key="access" value="no" match="none" />
+			<key key="motor_vehicle" value="yes" match="none" />
+		</item>
+		<item name="No motor-driven cycles" icon="MUTCD_no_motor-driven_cycles.png">
+			<link href="http://wiki.openstreetmap.org/wiki/Key:access"
+                  cs.href="http://wiki.openstreetmap.org/wiki/Cs:Key:access"
+                  da.href="http://wiki.openstreetmap.org/wiki/Da:Key:access"
+                  de.href="http://wiki.openstreetmap.org/wiki/DE:Key:access"
+                  fr.href="http://wiki.openstreetmap.org/wiki/FR:Key:access"
+                  it.href="http://wiki.openstreetmap.org/wiki/IT:Key:access"
+                  ja.href="http://wiki.openstreetmap.org/wiki/JA:Key:access"
+                  pl.href="http://wiki.openstreetmap.org/wiki/Pl:Key:access"
+                  pt.href="http://wiki.openstreetmap.org/wiki/Pt:Key:access"
+                  ru.href="http://wiki.openstreetmap.org/wiki/RU:Key:access"
+                  sv.href="http://wiki.openstreetmap.org/wiki/Sv:Key:access"
+                  uk.href="http://wiki.openstreetmap.org/wiki/Uk:Key:access" />
+			<key key="foot" value="no" match="none" />
+			<key key="bicycle" value="no" match="none" />
+			<key key="moped" value="no" match="none" />
+		</item>
+		<item name="No ped. bicycles motor-d. c." icon="MUTCD_no_pedestrians_bicycles_motor-driven_cycles.png">
+			<link href="http://wiki.openstreetmap.org/wiki/Key:access"
+                  cs.href="http://wiki.openstreetmap.org/wiki/Cs:Key:access"
+                  da.href="http://wiki.openstreetmap.org/wiki/Da:Key:access"
+                  de.href="http://wiki.openstreetmap.org/wiki/DE:Key:access"
+                  fr.href="http://wiki.openstreetmap.org/wiki/FR:Key:access"
+                  it.href="http://wiki.openstreetmap.org/wiki/IT:Key:access"
+                  ja.href="http://wiki.openstreetmap.org/wiki/JA:Key:access"
+                  pl.href="http://wiki.openstreetmap.org/wiki/Pl:Key:access"
+                  pt.href="http://wiki.openstreetmap.org/wiki/Pt:Key:access"
+                  ru.href="http://wiki.openstreetmap.org/wiki/RU:Key:access"
+                  sv.href="http://wiki.openstreetmap.org/wiki/Sv:Key:access"
+                  uk.href="http://wiki.openstreetmap.org/wiki/Uk:Key:access" />
+			<key key="foot" value="no" match="none" />
+			<key key="bicycle" value="no" match="none" />
+			<key key="moped" value="no" match="none" />
+		</item>
+		<item name="No pedestrians or bicycles" icon="MUTCD_no_pedestrians_or_bicycles.png">
+			<link href="http://wiki.openstreetmap.org/wiki/Key:access"
+                  cs.href="http://wiki.openstreetmap.org/wiki/Cs:Key:access"
+                  da.href="http://wiki.openstreetmap.org/wiki/Da:Key:access"
+                  de.href="http://wiki.openstreetmap.org/wiki/DE:Key:access"
+                  fr.href="http://wiki.openstreetmap.org/wiki/FR:Key:access"
+                  it.href="http://wiki.openstreetmap.org/wiki/IT:Key:access"
+                  ja.href="http://wiki.openstreetmap.org/wiki/JA:Key:access"
+                  pl.href="http://wiki.openstreetmap.org/wiki/Pl:Key:access"
+                  pt.href="http://wiki.openstreetmap.org/wiki/Pt:Key:access"
+                  ru.href="http://wiki.openstreetmap.org/wiki/RU:Key:access"
+                  sv.href="http://wiki.openstreetmap.org/wiki/Sv:Key:access"
+                  uk.href="http://wiki.openstreetmap.org/wiki/Uk:Key:access" />
+			<key key="foot" value="no" match="none" />
+			<key key="bicycle" value="no" match="none" />
+		</item>
+		<item name="No pedestrians" icon="MUTCD_no_pedestrians.png">
+			<link href="http://wiki.openstreetmap.org/wiki/Key:access"
+                  cs.href="http://wiki.openstreetmap.org/wiki/Cs:Key:access"
+                  da.href="http://wiki.openstreetmap.org/wiki/Da:Key:access"
+                  de.href="http://wiki.openstreetmap.org/wiki/DE:Key:access"
+                  fr.href="http://wiki.openstreetmap.org/wiki/FR:Key:access"
+                  it.href="http://wiki.openstreetmap.org/wiki/IT:Key:access"
+                  ja.href="http://wiki.openstreetmap.org/wiki/JA:Key:access"
+                  pl.href="http://wiki.openstreetmap.org/wiki/Pl:Key:access"
+                  pt.href="http://wiki.openstreetmap.org/wiki/Pt:Key:access"
+                  ru.href="http://wiki.openstreetmap.org/wiki/RU:Key:access"
+                  sv.href="http://wiki.openstreetmap.org/wiki/Sv:Key:access"
+                  uk.href="http://wiki.openstreetmap.org/wiki/Uk:Key:access" />
+			<key key="foot" value="no" match="none" />
+		</item>
+		<item name="Authorized vehicles only" icon="MUTCD_authorized_vehicles_only.png">
+			<link href="http://wiki.openstreetmap.org/wiki/Key:access"
+                  cs.href="http://wiki.openstreetmap.org/wiki/Cs:Key:access"
+                  da.href="http://wiki.openstreetmap.org/wiki/Da:Key:access"
+                  de.href="http://wiki.openstreetmap.org/wiki/DE:Key:access"
+                  fr.href="http://wiki.openstreetmap.org/wiki/FR:Key:access"
+                  it.href="http://wiki.openstreetmap.org/wiki/IT:Key:access"
+                  ja.href="http://wiki.openstreetmap.org/wiki/JA:Key:access"
+                  pl.href="http://wiki.openstreetmap.org/wiki/Pl:Key:access"
+                  pt.href="http://wiki.openstreetmap.org/wiki/Pt:Key:access"
+                  ru.href="http://wiki.openstreetmap.org/wiki/RU:Key:access"
+                  sv.href="http://wiki.openstreetmap.org/wiki/Sv:Key:access"
+                  uk.href="http://wiki.openstreetmap.org/wiki/Uk:Key:access" />
+			<key key="vehicle" value="private" match="none" />
+		</item>
+	</group>
+</presets>
