@@ -94,8 +94,6 @@
                   ru.href="http://wiki.openstreetmap.org/wiki/RU:Key:access"
                   sv.href="http://wiki.openstreetmap.org/wiki/Sv:Key:access"
                   uk.href="http://wiki.openstreetmap.org/wiki/Uk:Key:access" />
-			<key key="foot" value="no" match="none" />
-			<key key="bicycle" value="no" match="none" />
 			<key key="moped" value="no" match="none" />
 		</item>
 		<item name="No ped. bicycles motor-d. c." icon="MUTCD_no_pedestrians_bicycles_motor-driven_cycles.png">

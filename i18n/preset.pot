@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-11-30 21:35+0100\n"
+"POT-Creation-Date: 2018-02-27 22:40+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: master_preset.xml:149(item:name|group:MUTCD_access|preset:Authorized_vehicles_only)
+#: master_preset.xml:147(item:name|group:MUTCD_access|preset:Authorized_vehicles_only)
 msgid "Authorized vehicles only"
 msgstr ""
 
@@ -37,15 +37,15 @@ msgstr ""
 msgid "No non-motorized traffic"
 msgstr ""
 
-#: master_preset.xml:101(item:name|group:MUTCD_access|preset:No_ped._bicycles_motor-d._c.)
+#: master_preset.xml:99(item:name|group:MUTCD_access|preset:No_ped._bicycles_motor-d._c.)
 msgid "No ped. bicycles motor-d. c."
 msgstr ""
 
-#: master_preset.xml:134(item:name|group:MUTCD_access|preset:No_pedestrians)
+#: master_preset.xml:132(item:name|group:MUTCD_access|preset:No_pedestrians)
 msgid "No pedestrians"
 msgstr ""
 
-#: master_preset.xml:118(item:name|group:MUTCD_access|preset:No_pedestrians_or_bicycles)
+#: master_preset.xml:116(item:name|group:MUTCD_access|preset:No_pedestrians_or_bicycles)
 msgid "No pedestrians or bicycles"
 msgstr ""
 
