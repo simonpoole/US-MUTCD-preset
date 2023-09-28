@@ -14,22 +14,26 @@ ext {
 	presetBasename = 'MUTCD'
 }
 
-dependencies {
-	runtime 'ch.poole:preset-utils:0.23.2'
-	runtime 'commons-cli:commons-cli:1.4'
+configurations {
+    resoveableRuntimeOnly.extendsFrom runtimeOnly {
+        canBeResolved = true
+    }
 }
 
+dependencies {
+    resoveableRuntimeOnly 'ch.poole:preset-utils:0.36.0'
+}
 
 defaultTasks 'generateAllPresetTypes'
 
 task copyCss(type: Copy) {
-	from zipTree(project.configurations.runtime.filter{it.name.startsWith('preset-utils')}.singleFile)
+	from zipTree(project.configurations.resoveableRuntimeOnly.filter{it.name.startsWith('preset-utils')}.singleFile)
     include "preset.css"
     into new File(projectDir.getPath() + '/website')
 }
 
 task copyResources(type: Copy) {
-	from zipTree(project.configurations.runtime.filter{it.name.startsWith('preset-utils')}.singleFile)
+	from zipTree(project.configurations.resoveableRuntimeOnly.filter{it.name.startsWith('preset-utils')}.singleFile)
     include "josm-preset-1.0.xlmns"
     include "vespucci-preset-1.0.xlmns"
 	include "toJOSM.xslt"
@@ -38,7 +42,7 @@ task copyResources(type: Copy) {
 
 task updateWebsite(dependsOn: ["copyCss"], type: JavaExec) {
     main = "ch.poole.osm.presetutils.Preset2Html"
-    classpath = configurations.runtime
+    classpath = configurations.resoveableRuntimeOnly
     args('-input',    preset_file,
     	 '-output',   'index.html',
     	 '-vespucci', 'https://github.com/simonpoole/' + project.name + '/raw/gh-pages/gen/' + presetBasename + '.zip', 
@@ -49,7 +53,7 @@ updateWebsite.description = 'Update the website'
 
 task updatePot(type: JavaExec) {
     main = "ch.poole.osm.presetutils.Preset2Pot"
-    classpath = configurations.runtime
+    classpath = configurations.resoveableRuntimeOnly
     args('-input',  preset_file,
     	 '-output', 'i18n/preset.pot')
 }
@@ -106,8 +110,8 @@ task generateAndValidateJosm(dependsOn: ["transformToJosm"], type: Exec) {
 }
 
 task josmZip(dependsOn: ["generateAndValidateJosm"], type: Zip) {
-    baseName presetBasename + '-josm'
-    destinationDir = new File(projectDir, 'gen')
+    archiveBaseName = presetBasename + '-josm'
+    destinationDirectory = new File(projectDir, 'gen')
     from ('icons/png')
     from ('gen/' + josm_preset_file)
 }
@@ -140,8 +144,8 @@ task generateAndValidateVespucci(dependsOn: ["vespucciIcons","copyResources"], t
 }
 
 task vespucciZip(dependsOn: ["generateAndValidateVespucci"], type: Zip) {
-    baseName presetBasename
-    destinationDir = new File(projectDir, 'gen')
+    archiveBaseName = presetBasename
+    destinationDirectory = new File(projectDir, 'gen')
     from ('icons/png')
     from ('gen/' + vespucci_preset_file)
     from ('i18n')
@@ -151,8 +155,8 @@ vespucciZip.group = 'preset'
 vespucciZip.description = 'Generate zipped preset file for vespucci'
 
 task vespucciNoTranslationsZip(dependsOn: ["generateAndValidateVespucci"], type: Zip) {
-    baseName 'vespucci_zip_no_translations'
-    destinationDir = new File(projectDir, 'gen')
+    archiveBaseName = 'vespucci_zip_no_translations'
+    destinationDirectory = new File(projectDir, 'gen')
     from ('icons/png')
     from ('gen/' + vespucci_preset_file)
 }
